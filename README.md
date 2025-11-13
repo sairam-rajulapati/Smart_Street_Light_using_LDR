@@ -1,5 +1,5 @@
 # Smart_Street_Light_using_LDR
-
+## table of contents
 1. [Introduction](#introduction)
 2. [Working](#working)
 3.   [steps](#steps)
@@ -21,7 +21,7 @@ In this system, the LDR is connected to the analog input (A0) of an Arduino UNO 
 During daytime or when sufficient ambient light is present, the LDR receives more light, so its resistance becomes low, producing a high voltage at the analog input. The microcontroller interprets this as daylight and turns the LED/street light OFF.
 
 During nighttime or in darkness, the LDR receives little or no light, causing its resistance to increase. This produces a low voltage at the analog input. The microcontroller detects this as darkness and turns the LED/street light ON.
-### 3.steps
+## 3.steps
 1.Power ON: The system initializes and sets the LED pin as output.
 
 2.LDR Sensing: The LDR continuously senses ambient light intensity.
@@ -42,9 +42,11 @@ If the LDR value (analogRead) is below 500, it indicates low light → LED turns
 If the value is above 500, it indicates bright light → LED turns OFF.
 ## 4.Circuit View
 <img width="983" height="758" alt="image" src="https://github.com/user-attachments/assets/95b80369-d9f4-49b9-8b9f-4bfa2d2e05ab" />
+
 ## 5.Schematic view
 <img width="1331" height="757" alt="image" src="https://github.com/user-attachments/assets/1b962497-2914-45b6-a3ee-9a41a90cd77e" />
-### 6.Code
+
+## 6.Code
 // Pin Definitions
 const int ldrPin = A0; // LDR connected to analog pin A0
 const int ledPins[] = {2, 6, 8, 10, 11, 12, 13}; // LEDs connected to digital pins
@@ -89,6 +91,6 @@ void loop() {
   delay(100);
 }
 
-### 7.Components list
+## 7.Components list
 <img width="857" height="636" alt="image" src="https://github.com/user-attachments/assets/bb77851c-a07f-44f4-83c5-e5c5c0edae21" />
 
