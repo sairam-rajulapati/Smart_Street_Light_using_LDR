@@ -7,6 +7,7 @@
 5. [Schematic view](#schematicview)
 6. [Code](#code)
 7. [Components list](#componentslist)
+8. [Output](#output)
 
 
 ## 1.Introduction
@@ -93,4 +94,10 @@ void loop() {
 
 ## 7.Components list
 <img width="857" height="636" alt="image" src="https://github.com/user-attachments/assets/bb77851c-a07f-44f4-83c5-e5c5c0edae21" />
+
+## 8.output
+<img width="411" height="476" alt="image" src="https://github.com/user-attachments/assets/c4236e61-af74-4ad2-adc7-98727d681ad5" />
+
+
+
 
